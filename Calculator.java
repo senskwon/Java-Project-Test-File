@@ -50,7 +50,7 @@ public class Calculator extends JFrame {
 			button.setFont(new Font("Arial", Font.BOLD, 25));
 			button.setFocusPainted(false);
 
-			if (label.matches("[0-9]") || label.equals(" ")) {
+			if (label.matches("[0-9]") || label.equals(".")) {
 				button.setBackground(new Color(123, 125, 127));
 			} else if (label.equals("C")) {
 				button.setBackground(new Color(255, 129, 37));
